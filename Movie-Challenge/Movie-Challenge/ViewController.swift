@@ -11,11 +11,9 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     
-    
-    
-    
-    
-    
+    @IBOutlet weak var movieName: UILabel!
+    @IBOutlet weak var leo: UILabel!
+    @IBOutlet weak var star: UIButton!
     
     
     override func viewDidLoad() {
